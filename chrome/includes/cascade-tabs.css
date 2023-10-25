@@ -13,6 +13,10 @@
   >.tab-stack
   > .tab-background { box-shadow: none !important;  }
 
+  .tab-background[selected] {
+    background: var(--lwt-selected-tab-background-color) !important
+  }
+
 
 /* multi tab selection */
 #tabbrowser-tabs:not([noshadowfortests]) .tabbrowser-tab:is([multiselected])
