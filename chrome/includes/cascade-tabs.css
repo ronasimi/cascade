@@ -11,8 +11,10 @@
 /* remove tab shadow */
 .tabbrowser-tab
   >.tab-stack
-  > .tab-background { box-shadow: none !important;  }
-
+  >.tab-background {
+    box-shadow: none !important;
+    border-radius: 9px 9px !important
+  } 
   .tab-background[selected] {
     background: var(--lwt-selected-tab-background-color) !important
   }
