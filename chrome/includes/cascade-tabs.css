@@ -31,7 +31,10 @@
 
 /* tab close button options */
 .tabbrowser-tab:not([pinned]) .tab-close-button { display: var(--show-tab-close-button) !important; }
-.tabbrowser-tab:not([pinned]):hover .tab-close-button { display: var(--show-tab-close-button-hover) !important }
+.tabbrowser-tab:not([pinned]):hover .tab-close-button {
+   display: var(--show-tab-close-button-hover) !important;
+   border-radius: 9px !important;
+  }
 
 
 
