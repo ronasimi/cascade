@@ -13,7 +13,6 @@
   >.tab-stack
   >.tab-background {
     box-shadow: none !important;
-    border-radius: 9px 9px !important
   } 
   .tab-background[selected] {
     background: var(--lwt-selected-tab-background-color) !important
@@ -33,7 +32,6 @@
 .tabbrowser-tab:not([pinned]) .tab-close-button { display: var(--show-tab-close-button) !important; }
 .tabbrowser-tab:not([pinned]):hover .tab-close-button {
    display: var(--show-tab-close-button-hover) !important;
-   border-radius: 9px !important;
   }
 
 
