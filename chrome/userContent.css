@@ -1,0 +1,7 @@
+@import 'includes/cascade-colours.css';
+
+@-moz-document url-prefix("about:") {
+  :root {
+      --in-content-page-background: var(--uc-base-colour)!important;
+  }
+}
