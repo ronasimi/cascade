@@ -5,3 +5,10 @@
       --in-content-page-background: var(--uc-base-colour)!important;
   }
 }
+
+@-moz-document url-prefix(about:reader){
+  body.dark {
+   color: var(--uc-inverted-colour)!important;
+   background-color: var(--uc-base-colour)!important;
+  }
+ }
