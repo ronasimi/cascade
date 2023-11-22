@@ -12,3 +12,12 @@
    background-color: var(--uc-base-colour)!important;
   }
  }
+
+ @-moz-document url-prefix(about:home), url-prefix(about:newtab) {
+   .click-target-container *, .top-sites-list * {
+     color: #fff !important ; 
+    }
+  body {
+    background: url(wallpaper.jpg) !important ; background-size: cover !important ;
+  }
+}
