@@ -44,7 +44,7 @@
  *  4 – toolbar on bottom
  */
 :root {
-  --uc-toolbar-position: 0;
+  --uc-toolbar-position: 4;
 }
 
 /*  Darken the Personal Toolbar by X amount
@@ -52,7 +52,7 @@
  *  and X = 0 means no darkening at all
  */
 @media (prefers-color-scheme: dark) { :root {
-  --uc-darken-toolbar: 0.2;
+  --uc-darken-toolbar: 0;
 }} @media (prefers-color-scheme: light) { :root {
   --uc-darken-toolbar: 0;
 }}
@@ -71,7 +71,7 @@
    *  If enabled the max-width is applied on focus
    *  otherwise the URL Bar will always be it's min-width
    */ --uc-urlbar-min-width: 35vw;
-      --uc-urlbar-max-width: 35vw;
+      --uc-urlbar-max-width: 45vw;
 
   /*  Position of the URL Bar
    *  possible values:
@@ -157,4 +157,4 @@
  * e.g. playing indicator (the text, not the icon) */
 .tab-secondary-label { display: none !important; }
 
-browser { background-color: #272727 !important; }
+browser { background-color: var(--uc-base-colour) !important; }
