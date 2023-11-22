@@ -13,7 +13,7 @@
   }
  }
 
- @-moz-document url-prefix(about:home), url-prefix(about:newtab) {
+ @-moz-document url-prefix(about:home) {
    .click-target-container *, .top-sites-list * {
      color: #fff !important ; 
     }
