@@ -43,16 +43,25 @@
 .urlbarView-row:hover {
   color: var(--uc-inverted-colour) !important;
 }
-  > .urlbarView-row-inner {
-    :root:not([uidensity="compact"]) & {
-      min-height: 24px;
-      color: var(--uc-inverted-colour) !important;
-    }
+.urlbarView-row-inner {
+  :root:not([uidensity="compact"]) & {
+    min-height: 24px;
+    color: var(--uc-inverted-colour) !important;
   }
+}
+
 .urlbarView-row[selected]
   > .urlbarView-row-inner { background: var(--toolbar-field-focus-background-color) !important; }
 
-  
+  #urlbar *|input::placeholder {
+ color: transparent !important;
+ opacity: 0 !important;
+}
+
 .urlbar-icon, #urlbar-go-button { margin: auto; }
 .urlbar-page-action { padding: 0 inherit !important; }
 .urlbar-page-action .urlbar-icon { margin-top: 6px !important; }
+
+:root {
+  --autocomplete-popup-highlight-color: var(--uc-inverted-colour) !important;
+}
