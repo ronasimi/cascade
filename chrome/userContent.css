@@ -18,13 +18,13 @@
      color: #fff !important ; 
     }
   body {
-    background: url(wallpaper.jpg) !important ; background-size: cover !important ;
+    background: url(wallpaper.png) !important ; background-size: cover !important ;
   }
 } @-moz-document url-prefix(about:newtab) {
   .click-target-container *, .top-sites-list * {
     color: #fff !important ; 
    }
  body {
-   background: url(wallpaper.jpg) !important ; background-size: cover !important ;
+   background: url(wallpaper.png) !important ; background-size: cover !important ;
  }
 }
