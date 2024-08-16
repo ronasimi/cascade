@@ -16,13 +16,15 @@
  @-moz-document url-prefix(about:home) {
    .click-target-container *, .top-sites-list * {
      color: #fff !important ; 
+     text-shadow: 1px 1px 3px black;
     }
   body {
     background: url(wallpaper.png) !important ; background-size: cover !important ;
   }
 } @-moz-document url-prefix(about:newtab) {
   .click-target-container *, .top-sites-list * {
-    color: #fff !important ; 
+    color: #fff !important ;
+    text-shadow: 1px 1px 3px black; 
    }
  body {
    background: url(wallpaper.png) !important ; background-size: cover !important ;
