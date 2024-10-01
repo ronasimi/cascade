@@ -37,7 +37,7 @@
 
 
 #urlbar[open]
-  > #urlbar-background { background: var(--toolbar-field-background-color) !important; }
+  > #urlbar-background { background: var(--lwt-selected-tab-background-color) !important; }
 
 
 .urlbarView-row:hover {

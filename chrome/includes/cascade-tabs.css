@@ -156,3 +156,9 @@
 #TabsToolbar .tab-icon-overlay:not([crashed])[soundplaying]:hover,
 #TabsToolbar .tab-icon-overlay:not([crashed])[muted]:hover,
 #TabsToolbar .tab-icon-overlay:not([crashed])[activemedia-blocked]:hover { color: var(--toolbar-bgcolor) !important; }
+
+/* move application menu (hamburger button) */
+#PanelUI-button { order: 0 !important; }
+
+/* move tab overview button to far left */
+#alltabs-button { order: -2 !important; }
