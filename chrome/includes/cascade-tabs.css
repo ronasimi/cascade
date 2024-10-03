@@ -161,7 +161,7 @@
 #PanelUI-button { order: 0 !important; }
 
 /* move tab overview button */
-#alltabs-button { order: 0 !important; }
+#alltabs-button { order: -1 !important; }
 
 /* hide tab overview button unless tabs overflow */
 #tabbrowser-tabs:not([overflow]) ~ #alltabs-button {
