@@ -16,6 +16,8 @@
 #urlbar,
 #urlbar * {
 
+  color: #c3c3c3
+
   padding-block-start: var(--uc-urlbar-top-spacing) !important;
 
   outline: none !important;
