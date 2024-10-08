@@ -20,7 +20,11 @@
 
   outline: none !important;
   box-shadow: none !important;
-
+  :root {
+    --autocomplete-popup-highlight-background: red !important;
+    --autocomplete-popup-highlight-color: blue !important;
+  }
+  
 }
 
 
@@ -65,11 +69,8 @@
 :root {
   --autocomplete-popup-highlight-color: var(--uc-inverted-colour) !important;
 }
-/* Hide the application menu (hamburger button) *****************************************/
-/* Firefox userChrome.css tweaks ********************************************************/
-/* Github: https://github.com/aris-t2/customcssforfx ************************************/
-/****************************************************************************************/
 
+/* Hide the application menu (hamburger button)
 
 /*#PanelUI-button,
 #PanelUI-menu-button {
