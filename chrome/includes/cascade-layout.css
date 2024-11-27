@@ -11,20 +11,11 @@
 
 
 #main-window,
-#toolbar-menubar,
+#toolbar-menubar{ position: relative; display: flex; top: var(--uc-titlebar-padding,0px); height: 24px; width: 100%; overflow: hidden; }
 #TabsToolbar,
 #navigator-toolbox,
 #sidebar-box,
-#nav-bar { box-shadow: none !important; }
-
-
-#main-window,
-#toolbar-menubar,
-#TabsToolbar,
-#PersonalToolbar,
-#navigator-toolbox,
-#sidebar-box,
-#nav-bar { border: none !important; }
+#nav-bar { box-shadow: none !important; border: none !important; }
 
 
 /* remove "padding" left and right from tabs */
